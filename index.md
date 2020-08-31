@@ -1,7 +1,5 @@
 # Temperature Converter React-Native
 
-![project print](https://github.com/NichoBrando/Presentation/blob/master/tempconverterscene.png)
-
 ## About This Project
 This project has been made with React-Native, using expo cli. You can run this app on Android, PC and iOS.
 
@@ -20,8 +18,3 @@ When you use `npm start`, Metro Bundler will open on your navigator. To choose y
 * `Run in android simulator`: to open with an android simulator, installed on your PC;
 * `Run on iOS simulator`: to open with an iOS simulator, installed on your PC;
 * `to run without simulator`: install Expo in your smartphone. Then, start it and use QR Code to run the app.
-
-![metro builder](https://github.com/NichoBrando/Presentation/blob/master/metrobundler.png)
-
-[Link](https://github.com/NichoBrando/Temperature-Converter-React-Native)
-
