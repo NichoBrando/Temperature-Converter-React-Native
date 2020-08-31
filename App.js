@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { Text, View, TextInput, Button, Picker } from 'react-native';
 
 const YourApp = () => {
+
+  /*Recebe o hook da temperatura e o converte para float, se der certo, e os tipos
+  não forem iguais, vai ser feito a conversão entre uma unidade e outra.*/
   const convertTemperature = () => {
     var temp = parseFloat(temperature);
     if(isNaN(temp)){
@@ -53,11 +56,11 @@ const YourApp = () => {
           break;
     }
   }
-  const tempTypes = ["°C", "°F", "K"];
-  const [result, setResult] = useState("");
-  const [temperature, setTemperature] = useState(0);
-  const [entryTemperature, setEntry] = useState(0);
-  const [resultTemperature, setResultTemperature] = useState(1);
+  const tempTypes = ["°C", "°F", "K"]; //Armazena as unidades de temperatura
+  const [result, setResult] = useState(""); //Hook para mostrar o resultado
+  const [temperature, setTemperature] = useState(0); //Hook para alterar a temperatura passada pelo cliente
+  const [entryTemperature, setEntry] = useState(0); //Tipo de temperatura de entrada
+  const [resultTemperature, setResultTemperature] = useState(1); //Temperatura de saída
   return (
     <View style={{backgroundColor: "#186665", display: "flex", height: "100%"}}>
       <Text style={{color: "white", textAlign: "center", fontSize: 20}}>Temperature Converter</Text>
