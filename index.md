@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# Temperature Converter React-Native
 
-You can use the [editor on GitHub](https://github.com/NichoBrando/Temperature-Converter-React-Native/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![project print](https://github.com/NichoBrando/Presentation/blob/master/tempconverterscene.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## About This Project
+This project has been made with React-Native, using expo cli. You can run this app on Android, PC and iOS.
 
-### Markdown
+## Requirements
+To run this app, you'ill need to install **NodeJS** on your PC.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Getting Started
+Download this app, then, go to its directory, open terminal and run this commanad: `npm install`.
+with this command, the Node Package Manage will install and dependencies to run this app.
+Now, you only need to run `npm start` on your terminal, and you will see the app running.
 
-```markdown
-Syntax highlighted code block
+## Select your platform
 
-# Header 1
-## Header 2
-### Header 3
+When you use `npm start`, Metro Bundler will open on your navigator. To choose your platform, you will choose one of this options (or all):
+* `Run in web browser`: to open in PC;
+* `Run in android simulator`: to open with an android simulator, installed on your PC;
+* `Run on iOS simulator`: to open with an iOS simulator, installed on your PC;
+* `to run without simulator`: install Expo in your smartphone. Then, start it and use QR Code to run the app.
 
-- Bulleted
-- List
+![metro builder](https://github.com/NichoBrando/Presentation/blob/master/metrobundler.png)
 
-1. Numbered
-2. List
+[Link](https://github.com/NichoBrando/Temperature-Converter-React-Native)
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NichoBrando/Temperature-Converter-React-Native/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
